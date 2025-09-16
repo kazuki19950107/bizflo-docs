@@ -1,6 +1,5 @@
 site_name: BizFlo Docs
 site_description: BizFlo 外部向けドキュメント
-site_url: ""
 theme:
   name: material
   language: ja
@@ -11,7 +10,7 @@ theme:
     - content.code.copy
 use_directory_urls: true
 docs_dir: docs
-site_dir: docs_site
+site_dir: site
 
 nav:
   - ホーム: index.md
