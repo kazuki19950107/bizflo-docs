@@ -2,9 +2,7 @@ name: Build & Deploy BizFlo Docs
 
 on:
   push:
-    branches:
-      - main
-      - master
+    branches: [ master, main ]
   workflow_dispatch:
 
 permissions:
@@ -33,4 +31,14 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: site   # mkdocs.yml の site_dir: site と一致
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
