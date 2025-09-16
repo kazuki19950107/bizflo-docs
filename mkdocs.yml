@@ -24,3 +24,6 @@ nav:
       - 運用・管理: operations.md
   - FAQ: faq.md
   - リリースノート: release-notes.md
+  - 法務:
+      - 利用規約: terms.md
+      - プライバシーポリシー: privacy.md

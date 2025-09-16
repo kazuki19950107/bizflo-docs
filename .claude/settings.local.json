@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//g/マイドライブ/GitProjects/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
