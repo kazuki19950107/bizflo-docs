@@ -1,0 +1,27 @@
+site_name: BizFlo Docs
+site_description: BizFlo 外部向けドキュメント
+site_url: ""
+theme:
+  name: material
+  language: ja
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - search.suggest
+    - content.code.copy
+use_directory_urls: true
+docs_dir: docs
+site_dir: docs_site
+
+nav:
+  - ホーム: index.md
+  - ガイド:
+      - 初期設定ガイド: initial-setup.md
+      - 顧客管理: customer.md
+      - 案件管理: project.md
+      - KPI管理: kpi.md
+      - 会計管理: accounting.md
+      - 受発注管理: order.md
+      - 運用・管理: operations.md
+  - FAQ: faq.md
+  - リリースノート: release-notes.md
