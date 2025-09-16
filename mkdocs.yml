@@ -1,8 +1,10 @@
-site_name: BizFlo Docs
+site_name: BizFlo 操作マニュアル
 site_description: BizFlo 外部向けドキュメント
 theme:
   name: material
   language: ja
+  logo: images/favicon.png  # ロゴ画像のパス
+  favicon: images/favicon.png  # ファビコン（ブラウザタブのアイコン）
   features:
     - navigation.instant
     - navigation.tracking
