@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Read(//g/マイドライブ/GitProjects/**)"
+      "Read(//g/マイドライブ/GitProjects/**)",
+      "Bash(python -m mkdocs serve:*)",
+      "Read(//c/Users//**)"
     ],
     "deny": [],
     "ask": []

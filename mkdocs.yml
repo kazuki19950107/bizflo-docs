@@ -14,13 +14,23 @@ use_directory_urls: true
 docs_dir: docs
 site_dir: site
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 nav:
   - ホーム: index.md
   - ガイド:
       - 初期設定ガイド: initial-setup.md
       - 顧客管理: customer.md
       - 案件管理: project.md
+      - タスク管理: tasks.md
+      - 請求書管理: invoice.md
+      - 契約管理: contracts.md
+      - LINE連携: line.md
       - KPI管理: kpi.md
+      - 分析機能: analysis.md
       - 会計管理: accounting.md
       - 受発注管理: order.md
       - 運用・管理: operations.md
