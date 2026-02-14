@@ -8,6 +8,7 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
+    - navigation.sections
     - search.suggest
     - content.code.copy
 use_directory_urls: true
@@ -21,19 +22,26 @@ markdown_extensions:
 
 nav:
   - ホーム: index.md
-  - ガイド:
+  - はじめに:
       - 初期設定ガイド: initial-setup.md
+      - 運用・管理: operations.md
+  - 営業・顧客:
       - 顧客管理: customer.md
       - 案件管理: project.md
       - タスク管理: tasks.md
+      - スケジュール管理: schedule.md
+  - 取引・会計:
       - 請求書管理: invoice.md
-      - 契約管理: contracts.md
-      - LINE連携: line.md
-      - KPI管理: kpi.md
-      - 分析機能: analysis.md
-      - 会計管理: accounting.md
       - 受発注管理: order.md
-      - 運用・管理: operations.md
+      - 契約管理: contracts.md
+      - 会計管理: accounting.md
+  - 分析:
+      - KPI管理: kpi.md
+      - AIアシスタント: analysis.md
+  - ツール・連携:
+      - LINE連携: line.md
+      - 予約管理: reservation.md
+      - サイトアカウント管理: site-accounts.md
   - FAQ: faq.md
   - リリースノート: release-notes.md
   - 法務:
